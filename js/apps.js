@@ -51,7 +51,7 @@ function promocode(){
   const promo = document.getElementById("input-field").value;
   console.log(promo);
   if (promo == 'Ostad'){
-    discountPrice = totalPrice * 0.5; // 50% discount
+    discountPrice = parseInt(totalPrice * 0.9); // 50% discount
   } else if (promo == ''){
     discountPrice = totalPrice;
   } else {
